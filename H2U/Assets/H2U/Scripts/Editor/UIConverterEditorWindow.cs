@@ -9,7 +9,8 @@ public class UIConverterEditorWindow : EditorWindow {
     [MenuItem("H2U/UIConverterWindow")]
     private static void ShowWindow() {
         var window = GetWindow<UIConverterEditorWindow>();
-        window.titleContent = new GUIContent("UIConverterWindow");
+        window.titleContent = new GUIContent("UI Converter");
+        window.minSize = new Vector2(600, 400);
         window.Show();
     }
 
